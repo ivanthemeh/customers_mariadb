@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Customers Application</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <p><h1>Please <a href="./app/login-register/login-register.html" class="btn btn-primary">Login or Register</a> to continue!</h1></p>
+      <!-- All of the Node.js APIs are available in this renderer process. -->
+      <h1></h1>
+      <div class="alert alert-primary"><p class="lead">Your system is using:</p>
+        <p><span><img src="app/images/nodelogo.png" width="200px" alt="" class="img-thumbnail">&nbsp;</span><script>document.write(process.versions.node)</script></p>
+        <p><span><img src="app/images/chromiumlogo.png" width="200px" alt="" class="img-thumbnail">&nbsp;</span><script>document.write(process.versions.chrome)</script></p>
+        <p><span><img src="app/images/electronlogo.svg" width="200px" alt="" class="img-thumbnail">&nbsp;</span><script>document.write(process.versions.electron)</script></p>
+      </div>
+    </div>
+  </body>
+</html>
