@@ -1,4 +1,16 @@
-import { exports } from '../main.js';
+const jquery = require('jquery');
+const helpers = require('../helpers.js');
 
-console.log(export.openWindow);
-console.log('On login register page!');
+let $ = jquery;
+
+$(function() {
+  $('#signin').click(function(){
+    let email = $('#inputEmail').val();
+    let pass = $('#inputPassword').val();
+    if (email == 'admin@admin.com' && pass == 'password') {
+      helpers.openWindow('connect');
+    } else {
+      alert('Invalid Login Info');
+    }
+  });
+});

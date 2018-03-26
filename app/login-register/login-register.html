@@ -17,11 +17,12 @@
             <form class="form-signin">
                 <div class="container-fluid">
                   <span id="reauth-email" class="reauth-email"></span>
-                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" value="admin@admin.com" required autofocus>
                   <br>
-                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" value="password" required>
                   <br>
-                  <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+                  <button id="signin" class="float-left col-sm-3 btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+                  <button id="register" class="float-left col-sm-3 btn btn-lg btn-primary btn-register" type="submit">Register</button>
                   <br>
                   <!-- <a href="#" class="forgot-password">
                     Forgot the password?
