@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Connect to Database</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="connect.css"> -->
+    <script src="connect.js"></script>
+  </head>
+  <body>
+    <div class="container text-center">
+        <h1>Connect to Database</h1>
+        <!-- <img id="profile-img" class="profile-img-card" src="../images/avatar-icon.jpg" /> -->
+        <form class="form-connect">
+            <div class="container-fluid">
+              <input type="text" id="inputHost" class="form-control" placeholder="Host" value="192.168.5.235" required autofocus>
+              <br>
+              <input type="text" id="inputDatabase" class="form-control" placeholder="Database" value="clientdatafile" required autofocus>
+              <br>
+              <input type="text" id="inputUser" class="form-control" placeholder="User" value="clientdatafile" required autofocus>
+              <br>
+              <input type="password" id="inputPassword" class="form-control" placeholder="Password" value="CDF.2018" required>
+              <br>
+              <button id="connect" class="float-left col-sm-3 btn btn-lg btn-primary btn-block btn-connect" type="submit">Connect</button>
+              <p><br></p>
+            </div>
+        </form><!-- /form -->
+    </div><!-- /container -->
+  </body>
+</html>

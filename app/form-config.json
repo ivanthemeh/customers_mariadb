@@ -1,0 +1,79 @@
+{
+  "server_client_info": {
+    "server_version": "1.1",
+    "remote_desktop_server": {
+      "admin_id": "ivan",
+      "admin_password": "password",
+      "lan_ip": "123.456.789",
+      "lan_subnet": "42",
+      "lan_gateway": "42"
+    },
+    "internet_carrier_wan_static_ip": {
+      "account_info": "",
+      "phone_number": "",
+      "network": "",
+      "gateway": "",
+      "usable": "",
+      "dns_server_1": "",
+      "dns_server_2": "",
+      "subnet_mask": ""
+    },
+    "offsite_backup": "",
+    "dhcp_handled_by": "",
+    "wireless_access_point": {
+      "sn_#": "",
+      "mac_id": "",
+      "location": "",
+      "public_ssid": "",
+      "public_pw": "",
+      "private_ssid": "",
+      "private_pw": ""
+    },
+    "wireless_router": {
+      "brand": "",
+      "size": "",
+      "sn_#": "",
+      "mac_id": "",
+      "user": "",
+      "password": ""
+    },
+    "switch": {
+      "size": "",
+      "brand": ""
+    },
+    "printers": {
+      "printer_1_name": "",
+      "printer_1_ip": "",
+      "printer_2_name": "",
+      "printer_2_ip": ""
+    },
+    "web_hosting_company": {
+      "account_#": "",
+      "user": "",
+      "password": ""
+    },
+    "local_domain_host_company": {
+      "account_#": "",
+      "user": "",
+      "password": ""
+    },
+    "web_designer": {
+      "contact_name": "",
+      "phone": "",
+      "software/template": ""
+    },
+    "non_exchange_email_info": {
+      "pop": "",
+      "smtp": ""
+    },
+    "icon_mail_filter": {
+      "user": "",
+      "password": ""
+    },
+    "office_365": {
+      "website": "",
+      "admin": "",
+      "password": ""
+    }
+  }
+}
